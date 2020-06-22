@@ -18,6 +18,19 @@
 <body>
 <button onclick="location.href='https://discord.gg/fxUuGDg'">Discord!</button>
 <img src="https://img.shields.io/discord/719284792251645992?color=green&label=discord&logo=discord&style=flat-square" alt="Server de discord"
-</body>
+     <h2>Mi Twitch</h2>
+    <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "shiniii90s"
+  });
+</script>
+     </body>
 </html>
   </body>
